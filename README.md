@@ -10,3 +10,11 @@ Dart is a modern programming strictly typed language with AOT compilation like j
 ## Requrements
 1. Android studio with one virtual device, ( required only if developing for Android otherwise host OS can be selected as well ) preferably installed in non OS drive.
 2. Flutter sdk and Dart sdk which can be installed from the VSCode `Flutter` plugin itself. Select a different drive than the root folder is preferred for disk issues.
+
+## Running app
+
+In chromium, do
+
+```
+CHROME_EXECUTABLE=chromium flutter run -d chrome
+```
